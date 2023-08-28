@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav>
+        <div id="logo-section" class="logo">
+            <p class="text-3xl font-bold family-robot ">Interactive</p>     
+        </div>
+    </nav>
+    <main  id="main-tag">
+
+        <div  id="container-shape">
+
+            <!-- triangle -->
+    
+            <div id="triangle-box" class="item">
+                <div class="shape-container">
+                    <div id="triangle-up"></div>
+                </div>
+                <br>
+                <h3 class="font-medium mb-2">Triangle</h3>
+                <p class="mb-2">Area(A)=0.5×b×h</p>
+                <div class="input-field ">
+                    <input id="triangle-b-field" class="bg-slate-200 text-center rounded-lg shadow-lg" type="text" placeholder="b">
+                    <span class="font-medium px-2">cm</span>
+                    <input id="triangle-h-field" class="bg-slate-200 text-center rounded-lg shadow-lg" type="text" placeholder="h">
+                    <span class="font-medium px-2">cm</span>
+                </div>
+                <br>
+                <div>
+                    <button id="triangle-btn" class="bg-cyan-500 rounded-lg shadow-lg px-2 hover:bg-cyan-600">Calculate</button>
+                </div>
+            </div>
+    
+            <!-- rectangle -->
+    
+            <div id="rectangle-box" class="item">
+                <div class="shape-container">
+                    <div id="rectangle"></div>
+                </div>
+                <br>
+                <h3 class="font-medium mb-2">rectangle</h3>
+                <p class="mb-2">Area(A)=w×l</p>
+                <div class="input-field ">
+                    <input id="rectangle-w-field" class="bg-slate-200 text-center rounded-lg shadow-lg" type="text" placeholder="w">
+                    <span class="font-medium px-2">cm</span>
+                    <input id="rectangle-l-field" class="bg-slate-200 text-center rounded-lg shadow-lg " type="text" placeholder="l">
+                    <span class="font-medium px-2">cm</span>
+                </div>
+                <br>
+                <div>
+                    <button id="rectangle-btn" class="bg-cyan-500 rounded-lg shadow-lg px-2 hover:bg-cyan-600 ">Calculate</button>
+                </div>
+            </div>
+    
+            <!-- parallelogram -->
+    
+            <div id="parallelogram-box" class="item ">
+                <div class="shape-container">
+                    <div id="parallelogram"></div>
+                </div>
+                <br>
+                <h3 class="font-medium mb-2">Parallelogram</h3>
+                <p class="mb-2">Area(A)=b×h</p>
+                <div class="input-field ">
+                    <input id="parallelogram-b-field" class="bg-slate-200 text-center rounded-lg shadow-lg" type="text" placeholder="b">
+                    <span class="font-medium px-2">cm</span>
+                    <input id="parallelogram-h-field" class="bg-slate-200 text-center rounded-lg shadow-lg " type="text" placeholder="h">
+                    <span class="font-medium px-2">cm</span>
+                </div>
+                <br>
+                <div>
+                    <button id="parallelogram-btn" class="bg-cyan-500 rounded-lg shadow-lg px-2 hover:bg-cyan-600">Calculate</button>
+                </div>
+            </div>
+    
+            <!-- rhombus -->
+    
+            <div id="rhombus-box" class="item ">
+                <div class="shape-container">
+                    <div id="rhombus"></div>
+                </div>
+                <br>
+                <h3 class="font-medium mb-2">Rhombus</h3>
+                <p class="mb-2">Area(A)=0.5×d1×d2</p>
+                <div class="input-field ">
+                    <input id="rhombus-d1-field" class="bg-slate-200 text-center rounded-lg shadow-lg" type="text" placeholder="d1">
+                    <span class="font-medium px-2">cm</span>
+                    <input id="rhombus-d2-field" class="bg-slate-200 text-center rounded-lg shadow-lg " type="text" placeholder="d2">
+                    <span class="font-medium px-2">cm</span>
+                </div>
+                <br>
+                <div>
+                    <button id="rhombus-btn" class="bg-cyan-500 rounded-lg shadow-lg px-2 hover:bg-cyan-600 ">Calculate</button>
+                </div>
+            </div>
+    
+            <!-- Pentagon -->
+    
+            <div id="pentagon-box" class="item ">
+                <div class="shape-container">
+                    <div id="pentagon"></div>
+                </div>
+                <br>
+                <h3 class="font-medium mb-2">Pentagon</h3>
+                <p class="mb-2">Area(A)=0.5×p×h</p>
+                <div class="input-field ">
+                    <input id="pentagon-p-field" class="bg-slate-200 text-center rounded-lg shadow-lg" type="text" placeholder="p">
+                    <span class="font-medium px-2">cm</span>
+                    <input id="pentagon-h-field" class="bg-slate-200 text-center rounded-lg shadow-lg " type="text" placeholder="h">
+                    <span class="font-medium px-2">cm</span>
+                </div>
+                <br>
+                <div>
+                    <button id="Pentagon-btn" class="bg-cyan-500 rounded-lg shadow-lg px-2 hover:bg-cyan-600 ">Calculate</button>
+                </div>
+            </div>
+    
+            <!-- oval -->
+    
+            <div id="oval-box" class="item ">
+                <div class="shape-container">
+                    <div id="oval"></div>
+                </div>
+                <br>
+                <h3 class="font-medium mb-2">Oval</h3>
+                <p class="mb-2">Area(A)=π×a×b</p>
+                <div class="input-field ">
+                    <input id="oval-a field" class="bg-slate-200 text-center rounded-lg shadow-lg" type="text" placeholder="a">
+                    <span class="font-medium px-2">cm</span>
+                    <input id="oval-b field" class="bg-slate-200 text-center rounded-lg shadow-lg " type="text" placeholder="b">
+                    <span class="font-medium px-2">cm</span>
+                </div>
+                <br>
+                <div>
+                    <button id="oval-btn" class="bg-cyan-500 rounded-lg shadow-lg px-2 hover:bg-cyan-600">Calculate</button>
+                </div>
+            </div>
+        </div>
+        <div id="result-container">
+            <div id="result">
+               <!-- <h1 class="text-2xl font-medium font-mono text-center decoration-solid underline">Area Calculation</h1> -->
+                  <br><br>
+                    <table >
+               <h1 class="text-2xl font-medium font-mono text-center decoration-solid underline mt-12">Area Calculation</h1>
+                        <tr>
+                            <td class="px-3"><p class="mt-5">1.Triangle:</p></td>
+                            <td class="px-9"><p class="mt-5"><span id="tr-result"></span></p></td>
+                            <td class="px-2"><button id="convert-btn1" class="bg-purple-400 rounded-lg shadow-lg shadow-purple-200 hover:bg-purple-500 px-1 mt-5">Convert to m<sup>2</sup></button></td>
+                        </tr>
+                        <tr >
+                            <td class="px-3"><p class="mt-5">2.Rectangle:</p></td>
+                            <td class="px-9"><p class="mt-5"><span id="rec-result"></span></p></td>
+                            <td id="convert-btn2" class="px-2"><button class="bg-purple-400 rounded-lg shadow-lg shadow-purple-200 hover:bg-purple-500 px-1 mt-5">Convert to m<sup>2</sup></button></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3"><p class="mt-5">3.Parallelogram:</p></td>
+                            <td class="px-6"><p class="mt-5"><span id="paral-result"></span></p></td>
+                            <td id="convert-btn3" class="px-2"><button class="bg-purple-400 rounded-lg shadow-lg shadow-purple-200 hover:bg-purple-500 px-1 mt-5">Convert to m<sup>2</sup></button></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3"><p class="mt-5">4.Rhombus:</p></td>
+                            <td class="px-9"><p class="mt-5"><span id="rhom-result"></span></p></td>
+                            <td id="convert-btn4" class="px-2"><button class="bg-purple-400 rounded-lg shadow-lg shadow-purple-200 hover:bg-purple-500 px-1 mt-5">Convert to m<sup>2</sup></button></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3"><p class="mt-5">5.Pentagon:</p></td>
+                            <td class="px-9"><p class="mt-5"><span id="pen-result"></span></p></td>
+                            <td id="convert-btn5" class="px-2"><button class="bg-purple-400 rounded-lg shadow-lg shadow-purple-200 hover:bg-purple-500 px-1 mt-5">Convert to m<sup>2</sup></button></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3"><p class="mt-5">6.Ovale:</p></td>
+                            <td class="px-9"><p class="mt-5"><span id="oval-result"></span></p></td>
+                            <td id="convert-btn6" class="px-2"><button class="bg-purple-400 rounded-lg shadow-lg shadow-purple-200 hover:bg-purple-500 px-1 mt-5">Convert to m<sup>2</sup></button></td>
+                        </tr>
+                    </table>
+            </div>
+        </div>
+    </main>
+    <script src="js/common-function.js"></script>
+    <script src="js/design.js"></script>
+    <script src="js/calculate.js"></script>   
+</body>
+</html>
